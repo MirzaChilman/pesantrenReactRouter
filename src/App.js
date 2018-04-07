@@ -18,7 +18,8 @@ const About = () => (
 )
 
 const Topic = ({ match }) => (
-  <div>{
+  <div>
+    {console.log(match)}
     <h3>{match.url}</h3>
   }
   </div>
@@ -26,7 +27,7 @@ const Topic = ({ match }) => (
 
 const Topics = ({ match }) => (
   <div>
-
+    {console.log(match)}
     <h2>Topics</h2>
     <ul>
       <li>
