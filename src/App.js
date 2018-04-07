@@ -21,7 +21,6 @@ const Topic = ({ match }) => (
   <div>
     {console.log(match)}
     <h3>{match.url}</h3>
-  }
   </div>
 )
 
